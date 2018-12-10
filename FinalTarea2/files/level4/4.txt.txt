@@ -1,0 +1,22 @@
+19-14
+3-0/1/V/OXIDACION/Alteracion por el oxigeno
+6-1/2/V/XENOFOBIA/Odio a los extranjeros
+2-2/3/V/EXPRESAR/Hablar
+0-4/4/V/ANTIDEMOCRATICO/Contario a la democracia
+5-10/5/V/GOOGLE/Navegador mas usado
+4-12/6/V/ACOMODAR/Sinonimo de ordenar
+4-14/7/V/VOLUMINOSO/Objeto con mucho volumen
+7-0/1/H/DESDOBLAR/Extender algo doblado
+14-1/2/H/AEROPUERTO/Control de trafico aereo
+2-1/3/H/SEPTIEMBRE/Noveno mes del año
+5-3/4/H/RECESO/Suspencion temporal de una actividad
+0-4/5/H/ACUARIO/Lugar de animales acuaticos
+1-4/6/H/NUEVO/Objeto recien hecho
+4-4/7/H/DIFICULTAD/Sinonimo de facilidad
+10-4/8/H/AMANECER/Salida del sol en la mañana
+12-3/9/H/MIERCOLES/Cuarto dia de la semana
+13-4/10/H/CORAZON/Organo impulsor de la circulacion sanguinea
+7-13/11/H/PULMON/Organo respiratorio 
+6-17/8/V/PODEROSO/Alguien con mucho poder
+7-18/9/V/NOTICIA/Hecho divulgado
+5-16/10/V/ALMUERZO/Comida de medio dia

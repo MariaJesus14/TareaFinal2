@@ -1,0 +1,9 @@
+9-8
+4-0/1/H/VERDAD/Sinónimo de cierto/6 
+7-4/2/H/AMIGO/Alguien para confiar con quien tengo amistad/5
+0-7/1/V/BONITO/Agradable de ver/6
+1-5/3/H/AÑO/Doce meses/3
+4-4/2/V/AGUA/Líquido (H2O)/4
+2-1/3/V/MUERTE/Defunción/6
+0-5/4/V/PASADO/Tiempo que pasó/6
+

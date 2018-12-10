@@ -1,0 +1,18 @@
+16-14
+0-0/1/V/PARTIR/Accion de salir de un lugar
+2-1/2/V/LUNA/Satelite del espacio
+2-2/3/V/INVERNADERO/Lugar para pasar el invierno
+0-3/4/V/LLUVIA/Caer agua de las nubes
+3-4/5/V/DEPORTE/Accion fisica
+4-5/6/V/RUSIA/Pais mas grande del mundo
+0-6/7/V/JABON/Producto para lavar
+0-7/8/V/URANO/Septimo planeta del sistema solar
+7-6/9/V/IMITACION/Sinonimo de semejanza
+5-8/10/V/MUSEO/Lugar que contiene objetos artisticos
+10-9/11/V/ABEJA/Insecto que fabrica miel
+8-10/12/V/ODIAR/Antonimo de amar
+5-13/13/V/FORTALECER/Hacer mas fuerte
+9-3/1/H/DELITO/Accion en contra de la ley
+12-5/2/H/ICEBERG/Masa de hielo
+8-7/3/H/RELOJ/Da la hora
+14-8/4/H/PALMAR/Conjunto de palmeras

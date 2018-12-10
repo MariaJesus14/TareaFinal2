@@ -1,0 +1,12 @@
+9-15
+0-1/1/V/FAMILIAR/Persona con lazo sanguineo en comun
+3-3/2/V/ANTONIMO/Opuesto de una palabra
+3-5/3/V/ACTA/Certificado
+6-6/4/V/OJO/Organo visual de la percepcion ocular
+10-7/5/V/VOZ/Sonido de habla humana
+9-5/6/V/SOL/Estrella luminosa mas grande
+10-6/7/V/CEBRA/Animal de rayas
+3-0/1/H/JIRAFA/Animal de cuello largo
+8-2/2/H/VISTO/Pasado de ver
+11-5/3/H/LEON/Rey de la selva
+2-1/4/H/MENU/Lista de platos de un restaurante
