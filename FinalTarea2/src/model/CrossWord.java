@@ -25,6 +25,10 @@ public class CrossWord {
         this.columns = columns;
         this.arrayWord = arrayWord;
     }
+
+    public CrossWord() {
+        
+    }
  /**
  *getRows metodo que obtiene las filas
  * @param no recibe parametros

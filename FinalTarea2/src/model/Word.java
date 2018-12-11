@@ -17,7 +17,7 @@ public class Word {
         this.column = column;
         this.numberWord = numberWord;
         this.orientation = orientation;
-        this.lettler = lettler;
+        this.Word = lettler;
         this.wordHelp = wordHelp;
     }
 
@@ -102,8 +102,8 @@ public class Word {
  * @return la letra
  * 
  */ 
-    public String getLettler() {
-        return lettler;
+    public String getWord() {
+        return Word;
     }
  /**
  *setLettler metodo que asigna cada letra de la palabra
@@ -111,8 +111,8 @@ public class Word {
  * @return es void por lo tanto no retorna
  * 
  */
-    public void setLettler(String lettler) {
-        this.lettler = lettler;
+    public void setWord(String Word) {
+        this.Word = Word;
     }
  /**
  *getWordHelp metodo que obtiene la pista de la palabra
@@ -137,7 +137,7 @@ public class Word {
     private int column;
     private int numberWord;
     private String orientation;
-    private String lettler;
+    private String Word;
     private String wordHelp;
     
 

@@ -5,8 +5,12 @@
  */
 package view;
 
+import java.awt.GridLayout;
 import java.util.ArrayList;
 import javax.swing.JTextField;
+import filemanager.ReaderFiletxt;
+import java.io.IOException;
+import model.CrossWord;
 
 /**
  *
@@ -15,6 +19,9 @@ import javax.swing.JTextField;
  * @author Roibin Elizondo
  */
 public class Game extends javax.swing.JDialog {
+    ReaderFiletxt reader = new ReaderFiletxt();
+    CrossWord crossword;
+    
 
     /**
      * Creates new form CrossWord
@@ -22,8 +29,9 @@ public class Game extends javax.swing.JDialog {
    
     ArrayList<Object> textos = new ArrayList<>();
       JTextField txt = new JTextField();
-    public Game(javax.swing.JDialog parent, boolean modal) {
+    public Game(javax.swing.JDialog parent, boolean modal) throws IOException {
         super(parent, modal);
+        this.crossword = reader.readFileEasy("files/level1/1.txt", 6);
         initComponents();
          setLocationRelativeTo(parent);
          initPanel();
@@ -101,11 +109,8 @@ public class Game extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
    public  void initPanel (){
-     JustCapital_OneChar.JustLetters(txt);
-     limitar();
-       jPanel1.add(txt);
-       textos.add(txt);
-       jPanel1.updateUI();
+       GridLayout textFieldLayout = new GridLayout(9, 5);
+       
    }
     public void limitar (){
         txt.setDocument(new JustCapital_OneChar(txt, 1));

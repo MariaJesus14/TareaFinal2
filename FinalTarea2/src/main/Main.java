@@ -25,7 +25,8 @@ public class Main {
  
     public static void main(String[] args) throws IOException {
         ReaderFiletxt reader = new ReaderFiletxt();
-        System.out.println(""+LogicGame.printMatrix(LogicGame.makeMatrix(reader.readFileEasy("files/level1/1.txt", 6))));
+        LogicGame.makeMatrix(reader.readFileEasy("files/level1/1.txt", 8));
+        System.out.println(""+LogicGame.printMatrix(LogicGame.makeMatrix(reader.readFileEasy("files/level1/1.txt", 8))));
          Start star = new Start ();
          star.setVisible(true);
     }

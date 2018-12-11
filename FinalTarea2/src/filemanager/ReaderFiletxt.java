@@ -37,6 +37,7 @@ public class ReaderFiletxt {
     public CrossWord readFileEasy(String root, int lengArray) throws IOException {
         String[][] matrixEasy;
         String[] file = loadFile(root, lengArray);
+        System.out.println("FILE LENGHT = "+file.length);
         String[] words;
         Word[] listWord = new Word[file.length-1];
         int var =0;
@@ -44,8 +45,9 @@ public class ReaderFiletxt {
          row = Character.getNumericValue(file[0].charAt(0));
          column = Character.getNumericValue(file[0].charAt(2)); 
         
-        for (int i = 1; i < file.length; i++, var++) {
+        for (int i = 1; i < file.length-1; i++, var++) {
             words = file[i].split("/");
+            System.out.println("VAR = "+var);
             listWord[var] = new Word(Character.getNumericValue(words[0].charAt(0)), Character.getNumericValue(words[0].charAt(2)), Integer.parseInt(words[1]), words[2], words[3], words[4]);
         }
         CrossWord cross = new CrossWord(row, column, listWord);
@@ -59,8 +61,9 @@ public class ReaderFiletxt {
         String[] arrayFile;
         FileReader file = new FileReader(rootFile);
         BufferedReader buffer = new BufferedReader(file);
-        arrayFile = new String[lengArray];
+        arrayFile = new String[lengArray+1];
         while ((cadena = buffer.readLine()) != null) {
+            System.out.println(""+contador);
             arrayFile[contador] = cadena;
             contador++;
         }
