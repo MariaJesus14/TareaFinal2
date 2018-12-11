@@ -20,6 +20,8 @@ public class Word {
         this.lettler = lettler;
         this.wordHelp = wordHelp;
     }
+
+   
  /**
  *getRows metodo que obtiene las filas
  * @param no recibe parametros
