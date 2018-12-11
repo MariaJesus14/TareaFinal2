@@ -21,7 +21,7 @@ public class Levels extends javax.swing.JDialog {
         initComponents();
          setLocationRelativeTo(parent);
     }
-     Game game = new Game(this, true);
+     //Game game = new Game(this, true);
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -143,19 +143,19 @@ public class Levels extends javax.swing.JDialog {
     }//GEN-LAST:event_btbackActionPerformed
 
     private void btEasyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEasyActionPerformed
-        game.setVisible(true);
+       // game.setVisible(true);
     }//GEN-LAST:event_btEasyActionPerformed
 
     private void btMediumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btMediumActionPerformed
-        game.setVisible(true);
+      //  game.setVisible(true);
     }//GEN-LAST:event_btMediumActionPerformed
 
     private void DificilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DificilActionPerformed
-        game.setVisible(true);
+     //   game.setVisible(true);
     }//GEN-LAST:event_DificilActionPerformed
 
     private void btmuyDificilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmuyDificilActionPerformed
-        game.setVisible(true);
+      //  game.setVisible(true);
     }//GEN-LAST:event_btmuyDificilActionPerformed
 
 

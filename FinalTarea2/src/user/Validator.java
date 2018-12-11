@@ -13,7 +13,9 @@ import java.io.IOException;
 
 /**
  *
- * @author Hansy Gonzalez
+ * @author Jerry Rivera 
+ * @author Maria Rodriguez
+ * @author Roibin Elizondo
  */
 public class Validator {
 
