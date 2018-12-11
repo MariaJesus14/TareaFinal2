@@ -22,6 +22,7 @@ public class LogicGame {
     int coutChar = 0;
     ReaderFiletxt reader = new ReaderFiletxt();
     Game game;
+
     
  /**
  *LGame inicia el juego segun la dificultad escogida por el usuario
@@ -59,7 +60,7 @@ public class LogicGame {
     public static int review (String [][] matrixGame, String [][] matrixPlayer,Word[] wordList, int arrayIndex, int wordCount, int correctLetter,int row, int column){
         if(wordList[arrayIndex].getOrientation().equals("H")){
             if(matrixGame[ row ][ column].equals(matrixPlayer[ row ][ column ])){
-                if(column == wordList[arrayIndex].getLettler().length()-1){
+                if(column == wordList[arrayIndex].getWord().length()-1){
                     if(wordCount == wordList.length-1){
                         return wordCount;
                     }
@@ -74,7 +75,7 @@ public class LogicGame {
             }
         }else{
             if(matrixGame[ row ][ column].equals(matrixPlayer[ row ][ column ])){
-                if( row == wordList[arrayIndex].getLettler().length()-1){
+                if( row == wordList[arrayIndex].getWord().length()-1){
                     if(wordCount == wordList.length-1){
                         return wordCount;
                     }
@@ -94,7 +95,8 @@ public class LogicGame {
     public static String[][] makeMatrix(CrossWord cross) {
         String[][] matrixGame = new String[cross.getRows()][cross.getColumns()];
         for (int i = 0; i < cross.getArrayWord().length; i++) {
-            char[] arrayLetter = getArray(cross.getArrayWord()[i].getLettler());
+            System.out.println("i ="+cross.getArrayWord()[i].getWord());
+            char[] arrayLetter = getArray(cross.getArrayWord()[i].getWord());
             int row = cross.getArrayWord()[i].getRow();
             int column = cross.getArrayWord()[i].getColumn();
 

@@ -19,7 +19,7 @@ import user.Validator;
  * @author Maria Rodriguez
  * @author Roibin Elizondo
  */
-public class Ingreso extends javax.swing.JDialog {
+public class Login extends javax.swing.JDialog {
 
   
     User user;
@@ -28,7 +28,7 @@ public class Ingreso extends javax.swing.JDialog {
     /**
      * Creates new form Ingreso
      */
-    public Ingreso(java.awt.Frame parent, boolean modal) {
+    public Login(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
         setLocationRelativeTo(parent);

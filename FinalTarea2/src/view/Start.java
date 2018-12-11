@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  * @author Roibin Elizondo
  */
 public class Start extends javax.swing.JFrame {
-    Ingreso ingre = new Ingreso (this,true);
+    Login ingre = new Login (this,true);
     /**
      * Creates new form Start
      */
@@ -141,7 +141,7 @@ public class Start extends javax.swing.JFrame {
     }//GEN-LAST:event_btSalirActionPerformed
 
     private void btIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btIngresarActionPerformed
-       Ingreso ingre = new Ingreso(this, true);
+       Login ingre = new Login(this, true);
        ingre.setVisible(true);
         
         
