@@ -91,7 +91,7 @@ public class LogicGame {
         
     }
 
-    public String[][] makeMatrix(CrossWord cross) {
+    public static String[][] makeMatrix(CrossWord cross) {
         String[][] matrixGame = new String[cross.getRows()][cross.getColumns()];
         for (int i = 0; i < cross.getArrayWord().length; i++) {
             char[] arrayLetter = getArray(cross.getArrayWord()[i].getLettler());
@@ -114,8 +114,19 @@ public class LogicGame {
         return matrixGame;
 
     }
+    
+    public static String printMatrix (String [][] matrix){
+        String matrixString = "";
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                matrixString += matrix [i][j];
+            }
+            matrixString += "\n";
+        }
+        return matrixString;
+    }
 
-    public char[] getArray(String word) {
+    public static char[] getArray(String word) {
         char[] array = word.toCharArray();
         return array;
     }
